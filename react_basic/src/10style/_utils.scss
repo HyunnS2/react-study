@@ -1,0 +1,41 @@
+// _utils.scss
+
+// Scss파일명 앞에 _ 를 붙여서 작성하면 파일 단위로 분리되어 컴파일 되지 않는다.
+
+$color-red: red;
+$color-orange: orange;
+$color-yellow: yellow;
+$color-green: green;
+$color-blue: blue;
+$color-navy: navy;
+$color-purple: purple;
+
+@mixin box($size) {
+  width: $size;
+  height: $size;
+}
+
+///////// 실습1
+///
+///
+
+@mixin eye($w, $h, $color) {
+  width: $w;
+  height: $h;
+  background-color: $color;
+  position: relative;
+}
+
+@mixin round() {
+  position: absolute;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+@mixin position($top, $left) {
+  top: 100px + $top;
+  left: 100px + $left;
+}
+
+// / 실습2////////

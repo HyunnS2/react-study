@@ -1,0 +1,12 @@
+.my_style {
+  background-color: blue;
+  color: orange;
+  font-size: 40px;
+  padding: 12;
+}
+
+.style {
+  margin-top: 20;
+  color: orange;
+  font-size: 40px;
+}
